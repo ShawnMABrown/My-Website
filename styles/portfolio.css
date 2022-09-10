@@ -1,0 +1,29 @@
+.portfolio{
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.portfolio-header h1{
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+.portfolio-header p{
+    padding-top: 0;
+    margin-top: 0;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 14px;
+    row-gap: 14px;
+}
+.projects-grid > a{
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+}
+p{
+    font-size: large;
+}
