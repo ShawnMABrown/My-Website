@@ -1,29 +1,34 @@
-.main-page{
+.main-page {
     padding: 50px;
     padding-left: 200px;
     padding-right: 200px;
 }
-.intro-sect{
+
+.intro-sect {
     display: flex;
 }
-.buttons{
+
+.buttons {
     margin-top: 35px;
 }
-.contact-btn{
+
+.contact-btn {
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
     border-width: 1px;
     background-color: black;
     color: white;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     transition: background-color 0.3s ease;
     transition: border-color 0.3s ease;
-    background-color: rgb(232,80,92);
-    border-color: rgb(232,80,92);
+    background-color: rgb(232, 80, 92);
+    border-color: rgb(232, 80, 92);
     color: white;
 }
-.resume-btn{
+
+.resume-btn {
     padding: 10px 20px 10px 20px;
     margin-left: 10px;
     border-radius: 20px;
@@ -32,62 +37,74 @@
     font: 14px Arial;
     text-decoration: none;
 }
-.resume-btn:hover { 
+
+.resume-btn:hover {
     text-decoration: none;
     transition: border-color 0.3s ease;
-    border-color: rgb(232,80,92);
+    border-color: rgb(232, 80, 92);
     color: black;
 }
-.arrow{
+
+.arrow {
     display: flex;
     margin-top: 70px;
     margin-bottom: 70px;
 }
-.arrow img{
+
+.arrow img {
     height: 100px;
     width: 100%;
     justify-content: center;
 }
-.skills{
+
+.skills {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     grid-gap: 20px;
     grid-row-gap: 10px;
 }
-.skill{
+
+.skill {
     display: block;
 }
-.skill p{
+
+.skill p {
     text-align: center;
     color: rgb(87, 87, 87);
     font-size: 12px
 }
-.img-holder{
+
+.img-holder {
     position: relative;
     width: 100%;
     padding: 0;
 }
-.img{
+
+.img {
     text-align: center;
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 15px;
-    background-color: rgba(45,121,199, 0.1);
+    background-color: rgba(45, 121, 199, 0.1);
     border-radius: 5px;
 }
-.img img{
+
+.img img {
     width: 70%;
 }
-.c{
+
+.c {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.java{
+
+.java {
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.php{
+
+.php {
     padding-top: 20px;
     padding-bottom: 18px;
 }

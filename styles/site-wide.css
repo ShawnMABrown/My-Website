@@ -1,9 +1,10 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     height: 50px;
@@ -11,27 +12,44 @@ header{
     padding: 0px 20px 0px 20px;
     border-bottom: 1px solid grey;
 }
-a{ color: black; }
-.name{
+
+a {
+    color: black;
+}
+
+.name {
     font-size: 20px;
     padding-right: 20px;
     font-weight: 600;
 }
-.social-nav a{
+
+.social-nav a {
     padding-right: 10px;
 }
-.git-logo{
+
+.git-logo {
     padding-right: 4px;
 }
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { 
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: none;
     transition: color 0.3s;
-    color: rgb(232,80,92);
+    color: rgb(232, 80, 92);
 }
-a:active { text-decoration: none; }
-footer{
+
+a:active {
+    text-decoration: none;
+}
+
+footer {
     display: flex;
     justify-content: center;
 }
